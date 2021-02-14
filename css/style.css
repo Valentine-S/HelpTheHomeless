@@ -65,3 +65,58 @@ footer {
     padding: 30px;
     color:#FFFFFF;
 }
+
+.mappage{
+    text-align: center;
+    background-color: #2C2F33;
+    padding: 0px;
+    color:#FFFFFF;
+}
+
+.leftlist {
+    padding-top: 75px;
+    color: #7289DA;
+    float:left;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    line-height: 1.75;
+    font-weight: bold;
+}
+
+.rightlist {
+    padding-top: 50px;
+    color: #7289DA;
+    float:right;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    line-height: 1.75;
+    font-weight: bold;
+    
+}
+
+.maptitle {
+    text-align: center;
+    font-size: 60px;
+    color: #7289DA;
+    font-weight: bold;
+}
+
+.leftlist a:hover {
+    color: #ddd;
+}
+
+.leftlist a {
+    text-decoration: none;
+    color: #7289DA;
+}
+
+.rightlist a:hover {
+    color: #ddd;
+}
+
+.rightlist a {
+    text-decoration: none;
+    color: #7289DA;
+}
