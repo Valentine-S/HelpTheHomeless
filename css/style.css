@@ -11,15 +11,19 @@ body {
     background-color: #23272A;
     padding: 10px;
     width: 100%;
+    display: flex;
+    
+    align-items: center;
   }
   
 .topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 16px 16px;
+    padding: 10px 10px 10px 10px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 30px;
+    
 }
   
 .topnav a:hover {
@@ -31,6 +35,18 @@ body {
     background-color: #7289DA;
     color: white;
 }
+
+.topnav a.logo {
+    pointer-events: none;
+    
+}
+
+.topnav a.logo img{
+    width: 90px;
+    height: 75px;
+    padding-left: 10px;
+}
+
 
 footer {
     background-color: #23272A;
