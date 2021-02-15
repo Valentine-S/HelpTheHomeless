@@ -50,11 +50,11 @@ body {
 
 footer {
     background-color: #23272A;
-    padding: 10px 10px 10px 10px;
+    padding: 20px;
+    margin-top: 20px;
     text-align: center;
     color: white;
     bottom: 0;
-    position: fixed;
     width: 100%;
   }
   
