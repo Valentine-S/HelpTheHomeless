@@ -76,14 +76,18 @@ footer {
   box-sizing: border-box;
 }
 
-.spacing {
-  line-height: 0.8;
-  margin-bottom: 1em;
-  word-spacing: 30px;
-}
-
 .cause {
   margin-left: 2.5em;
-  padding: 0 7em 2em;
+  padding: 0 30em 3em;
   border-width: 2px;
+  align-items: center;
+}
+
+.marginright {
+  margin-right: 2.5em;
+  text-align: right;
+  /*line-height: 0.8;
+  margin-bottom: 1em;
+  word-spacing: 30px;
+  */
 }
