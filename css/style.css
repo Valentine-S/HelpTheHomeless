@@ -68,6 +68,11 @@ footer a {
     color: #7289DA;
 }
 
+footer a {
+    text-decoration: none;
+    color: #7289DA;
+}
+  
 .homepage {
     text-align: center;
     background-color: #2C2F33;
@@ -84,4 +89,61 @@ footer a {
     display: flex;
 }
 
-  
+.mappage{
+    text-align: center;
+    background-color: #2C2F33;
+    padding: 0px;
+    color:#FFFFFF;
+}
+
+.leftlist {
+    padding-top: 50px;
+    color: #7289DA;
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    line-height: 1.75;
+    font-weight: bold;
+    display: inline-block; 
+	text-align: left; 
+    float:left;
+}
+
+.rightlist {
+    padding-top: 50px;
+    padding-right: 12px;
+    color: #7289DA;
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    line-height: 1.75;
+    font-weight: bold;
+    display: inline-block; 
+	text-align: left; 
+    float:right;
+}
+
+.maptitle {
+    text-align: center;
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.leftlist a:hover {
+    color: #ffffff;
+}
+
+.leftlist a {
+    text-decoration: none;
+    color: #7289DA;
+}
+
+.rightlist a:hover {
+    color: #ffffff;
+}
+
+.rightlist a {
+    text-decoration: none;
+    color: #7289DA;
+}
