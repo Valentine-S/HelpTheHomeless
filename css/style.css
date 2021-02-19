@@ -56,12 +56,16 @@ footer {
     color: white;
     bottom: 0;
     font-size: small;
-    position: fixed;
     width: 100%;
 }
 
 footer a:hover {
     color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #7289DA;
 }
 
 footer a {
@@ -74,6 +78,15 @@ footer a {
     background-color: #2C2F33;
     padding: 30px;
     color:#FFFFFF;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.row {
+    display: flex;
 }
 
 .mappage{
