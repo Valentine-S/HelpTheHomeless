@@ -59,8 +59,16 @@ footer {
     position: fixed;
     width: 100%;
 }
-  
 
+footer a:hover {
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #7289DA;
+}
+  
 .homepage {
     text-align: center;
     background-color: #2C2F33;
