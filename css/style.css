@@ -56,6 +56,7 @@ form {
 }
 
 footer {
+  display: inline-block; 
   background-color: #23272a;
   padding-top: 10px; 
   padding-left: 40px;  
@@ -109,10 +110,10 @@ footer a {
   color: #7289da;
   display: flex;
   align-items: center;
-  font-size: 36px;
+  font-size: 2vw;
   line-height: 1.75;
   font-weight: bold;
-  display: inline-block;
+  display: block;
   text-align: left;
   float: left;
 }
@@ -123,17 +124,18 @@ footer a {
   color: #7289da;
   display: flex;
   align-items: center;
-  font-size: 36px;
+  font-size: 2vw;
   line-height: 1.75;
   font-weight: bold;
-  display: inline-block;
+  display: block;
   text-align: left;
   float: right;
 }
 
 .maptitle {
+  padding-bottom: 5vw; 
   text-align: center;
-  font-size: 70px;
+  font-size: 3vw;
   color: #ffffff;
   font-weight: bold;
 }
