@@ -57,11 +57,13 @@ form {
 
 footer {
   background-color: #23272a;
-  padding: 0px 0px 0px 10px;
+  padding-top: 10px; 
+  padding-left: 20px;  
+  padding-bottom: 30px; 
   text-align: left; /*center*/
   color: white;
   bottom: 0;
-  position: fixed;
+  position: relative;
   width: 100%;
 }
 
